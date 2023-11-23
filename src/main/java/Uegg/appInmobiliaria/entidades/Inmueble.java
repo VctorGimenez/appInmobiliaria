@@ -114,12 +114,12 @@ public class Inmueble {
         this.tipoOferta = tipoOferta;
     }
 
-    public Date getFechaCompraVenta() {
+    public Date getFechaAlta() {
         return fechaAlta;
     }
 
-    public void setFechaCompraVenta(Date fechaCompraVenta) {
-        this.fechaAlta = fechaCompraVenta;
+    public void setFechaAlta(Date fechaAlta) {
+        this.fechaAlta = fechaAlta;
     }
 
  
