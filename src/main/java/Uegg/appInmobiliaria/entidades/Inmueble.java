@@ -29,8 +29,8 @@ public class Inmueble {
 
     @Temporal(TemporalType.DATE)
     private Date fechaAlta;
-
-
+@ManyToOne
+primate Usuario usuario;
     public Inmueble() {
     }
 
